@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<TrackAndTraceData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FreightForwarderId>2</FreightForwarderId>
+  <DocumentId>ABC111</DocumentId>
+  <POData>
+    <PONumber>6004508</PONumber>
+    <POURL>NA</POURL>
+    <ShipmentData>
+      <UNWBShipmentId>20674</UNWBShipmentId>
+      <ForwarderShipmentId>2310913910601800</ForwarderShipmentId>
+      <RevisedEstimatedSupplierDeliveryTime>2021-06-07T14:50:00</RevisedEstimatedSupplierDeliveryTime>
+      <ShippingPieces>1</ShippingPieces>
+      <ShippingWeight>2245.00</ShippingWeight>
+      <ShippingVolume>20</ShippingVolume>
+      <LegData>
+        <ForwarderLegId>1</ForwarderLegId>
+        <VesselNumber>AMERICAN HIGHWAY/186</VesselNumber>
+        <TransportMode>Sea</TransportMode>
+        <PointOfLoading>JPNGO</PointOfLoading>
+        <PointOfDischarge>TZDAR</PointOfDischarge>
+
+        <EstimatedTimeOfDeparture>2021-06-27T00:00:00</EstimatedTimeOfDeparture>
+        <EstimatedTimeOfArrival>2021-08-01T11:59:59</EstimatedTimeOfArrival>
+      </LegData>
+    </ShipmentData>
+  </POData>
+</TrackAndTraceData>
