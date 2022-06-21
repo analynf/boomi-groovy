@@ -6,7 +6,7 @@ USERNAME = "ShipShapeTest";
 PASSWORD = "=5p1+!JZ#wEk";
 REMOTE_PORT = 21;
 REMOTE_DIRECTORY = "/FromSGL";
-FILE_FILTER = "*.xml"
+FILE_FILTER = "*.txt"
 
 FTPClient ftpClient = new FTPClient();
 
@@ -61,15 +61,11 @@ for (String filename : filenames) {
         while ((bytesRead = inputStream.read(bytesArray)) != -1) {
             outputStream.write(bytesArray, 0, bytesRead);
         }
-        if(!ftp.completePendingCommand()) {
-            ftp.logout();
-            ftp.disconnect();
-            System.err.println("File transfer failed.");
-            System.exit(1);
-        }
         success = ftpClient.completePendingCommand();
         if (success) {
             println filename + " has been downloaded successfully.";
+        } else {
+            println "File transfer failed.";
         }
         outputStream.close();
         inputStream.close();
