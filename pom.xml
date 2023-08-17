@@ -33,5 +33,10 @@
             <artifactId>commons-net</artifactId>
             <version>3.8.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20220924</version>
+        </dependency>
     </dependencies>
 </project>

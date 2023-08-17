@@ -1,0 +1,23 @@
+[
+  {
+    "ContainerNumber":"MSQU3054401",
+    "SealNumber":"SN401",
+    "ContainerType":"20Bulk",
+    "AssetBookingNumber":"3016233101",
+    "IsReturn":false
+  },
+  {
+    "ContainerNumber":"MSQU3054402",
+    "SealNumber":"SN402",
+    "ContainerType":"20Bulk",
+    "AssetBookingNumber":"3016233101",
+    "IsReturn":false
+  },
+  {
+    "ContainerNumber":"MSQU3054403",
+    "SealNumber":"SN403",
+    "ContainerType":"20Bulk",
+    "AssetBookingNumber":"3016233101",
+    "IsReturn":false
+  }
+]

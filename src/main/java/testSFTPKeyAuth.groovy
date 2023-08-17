@@ -4,14 +4,17 @@ import com.jcraft.jsch.JSch
 import com.jcraft.jsch.Session
 
 REMOTE_HOST = "sftp.scangl.com";
-USERNAME = "ShipShape";
-PASSWORD = "X8\$Mz57w7ZlL";
+//USERNAME = "ShipShape";
+//PASSWORD = "X8\$Mz57w7ZlL";
+USERNAME = "ShipShapeTest";
+PASSWORD = "=5p1+!JZ#wEk";
 REMOTE_PORT = 22;
 SESSION_TIMEOUT = 10000;
 CHANNEL_TIMEOUT = 5000;
+FILE_FILTER="(.*?).xml|(.*?).XML"
 
 JSch jsch = new JSch();
-jsch.setKnownHosts(new ByteArrayInputStream("scangl.com".getBytes()));
+//jsch.setKnownHosts(new ByteArrayInputStream("scangl.com".getBytes()));
 Session jschSession = jsch.getSession(USERNAME, REMOTE_HOST, REMOTE_PORT);
 jschSession.setConfig("StrictHostKeyChecking", "no");
 
@@ -36,7 +39,13 @@ ChannelSftp channelSftp = (ChannelSftp) sftp;
 
 // download file from remote server to local
 // channelSftp.get(remoteFile, localFile);
+
+channelSftp.cd("/FromSGL")
 println channelSftp.pwd();
-channelSftp.cd("/Send")
+Vector<ChannelSftp.LsEntry> fileList = channelSftp.ls(FILE_FILTER);
+for (ChannelSftp.LsEntry entry : fileList) {
+    println entry.getFilename();
+}
 
 channelSftp.exit();
+jschSession.disconnect();
