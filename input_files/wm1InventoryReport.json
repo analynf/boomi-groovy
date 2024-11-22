@@ -1,0 +1,69 @@
+{
+  "documentHeader": {
+    "sender": "5790000259793",
+    "receiver": "TIGER"
+  },
+  "lines": [
+    {
+      "messageNumber": 7938,
+      "creationDate": "2024-10-14 09:38:43.377",
+      "eanNumber": "7333399267840",
+      "quantity": 1420.000000,
+      "quantityOnPicklist": 0.000000,
+      "unitType": "PCS",
+      "availability": "0"
+    },
+    {
+      "messageNumber": 7938,
+      "creationDate": "2024-10-14 09:38:43.377",
+      "eanNumber": "7333399267841",
+      "quantity": 352.510000,
+      "quantityOnPicklist": 0.000000,
+      "unitType": "PCS",
+      "availability": "0"
+    },
+    {
+      "messageNumber": 7939,
+      "creationDate": "2024-10-14 09:38:43.577",
+      "eanNumber": "7333399267833",
+      "quantity": 0.000000,
+      "quantityOnPicklist": 0.000000
+    },
+    {
+      "messageNumber": 7940,
+      "creationDate": "2024-10-14 09:38:43.763",
+      "eanNumber": "7333399267826",
+      "quantity": 2783.000000,
+      "quantityOnPicklist": 0.000000,
+      "unitType": "PCS",
+      "availability": "0"
+    },
+    {
+      "messageNumber": 7940,
+      "creationDate": "2024-10-14 09:38:43.763",
+      "eanNumber": "7333399267826",
+      "quantity": 50.000000,
+      "quantityOnPicklist": 0.000000,
+      "unitType": "PCS",
+      "availability": "30"
+    },
+    {
+      "messageNumber": 7940,
+      "creationDate": "2024-10-14 09:38:43.763",
+      "eanNumber": "7333399267826",
+      "quantity": 379.780000,
+      "quantityOnPicklist": 0.000000,
+      "unitType": "PCS",
+      "availability": "40"
+    },
+    {
+      "messageNumber": 7941,
+      "creationDate": "2024-10-14 09:38:43.963",
+      "eanNumber": "7333399267819",
+      "quantity": 20.000000,
+      "quantityOnPicklist": 0.000000,
+      "unitType": "PCS",
+      "availability": "0"
+    }
+  ]
+}

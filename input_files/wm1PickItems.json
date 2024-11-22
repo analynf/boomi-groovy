@@ -1,0 +1,75 @@
+{
+  "documentHeader": {
+    "sender": "5790000259793",
+    "receiver": "AMER"
+  },
+  "outboundOrderResponse": [
+    {
+      "header": [
+        {
+          "messageNumber": 2678,
+          "actualShippingDate": "2024-06-20 15:20:42.02",
+          "orderNo": "4051801206",
+          "sglReference": "4001104593406",
+          "canceledOrder": false,
+          "referenceOfDestination": "PEAKFIEN0112362_1"
+        }
+      ],
+      "orderLines": [
+        {
+          "messageNumber": 2678,
+          "lineId": 900001,
+          "weight": 0.0,
+          "itemNumber": "G79620010",
+          "eanNumber": "7333269699016",
+          "orderedQuantity": 2.0,
+          "dispatchedQuantity": 0.0,
+          "unitType": "PCS",
+          "colour": "P2N3",
+          "size": "M",
+          "expiryDate": "9998-12-31 00:00:00.0",
+          "orderNo": "4051801206",
+          "referenceOfDestination": "PEAKFIEN0112362_1"
+        },
+        {
+          "messageNumber": 2678,
+          "lineId": 900001,
+          "boxId": "000000000000000708",
+          "weight": 0.0,
+          "itemNumber": "G79620010",
+          "eanNumber": "7333269699016",
+          "orderedQuantity": 2.0,
+          "dispatchedQuantity": 1.0,
+          "unitType": "PCS",
+          "colour": "P2N3",
+          "size": "M",
+          "expiryDate": "9998-12-31 00:00:00.0",
+          "orderNo": "4051801206",
+          "referenceOfDestination": "PEAKFIEN0112362_1"
+        },
+        {
+          "messageNumber": 2678,
+          "lineId": 900002,
+          "weight": 0.0,
+          "itemNumber": "G79620050",
+          "eanNumber": "7333269709784",
+          "orderedQuantity": 2.0,
+          "dispatchedQuantity": 0.0,
+          "unitType": "PCS",
+          "colour": "PN05",
+          "size": "M",
+          "expiryDate": "9998-12-31 00:00:00.0",
+          "orderNo": "4051801206",
+          "referenceOfDestination": "PEAKFIEN0112362_1"
+        }
+      ],
+      "boxes": [
+        {
+          "boxId": "000000000000000708",
+          "boxWeight": 0.56,
+          "boxVolume": 9000.0
+        }
+      ]
+    }
+  ]
+}
